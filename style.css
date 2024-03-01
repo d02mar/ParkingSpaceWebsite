@@ -1,0 +1,23 @@
+* {
+    scroll-behaviour: smooth;
+}
+
+main {
+    background-color: #79DEF1;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    background-color: black;
+}
+
+
+.cubes {
+    display: flex;
+
+}
+
