@@ -1,23 +1,263 @@
 * {
     scroll-behaviour: smooth;
-}
-
-main {
-    background-color: #79DEF1;
+    font-family: 'Sansation', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: black;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 100px;
 }
+
+header a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding-right: 40px;
+    text-align:center;
+}
+
+
+main {
+    background-color: #79DEF1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.rectangle-container_1,
+.rectangle-container_2,
+.rectangle-container_3,
+.rectangle-container_4 {
+    width: 30%;
+    padding: 30px;
+    color: #79DEF1;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    font-size: 18px;
+    background-color:black;
+    margin-right: 5%;
+}
+
+.rectangle-container_1 img{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    width: 25%;
+}
+
+.rectangle-container_2 img{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    width: 20%;
+}
+
+.rectangle-container_3 img{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    width: 25%;
+}
+
+.rectangle-container_4 img{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    width: 25%;
+}
+.rectangle-container_1 {
+    height: 120px;
+}
+
+.rectangle-container_2 {
+    height: 150px;
+}
+
+.rectangle-container_3 {
+    height: 180px;
+}
+
+.rectangle-container_4 {
+    height: 210px;
+}
+
+.row_container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.skyscraper {
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    height: 30vh;
+    background-image: url('photo/sky.png');
+    background-position: left;
+    background-size: cover;
+}
+
+.skyscraper h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    padding-left: 50px;
+    color: black;
+}
+
+.steps_and_button {
+    display: flex;
+}
+
+.steps {
+    font-size: 30px;
+    margin-top: 2px;
+    padding-left: 40px;
+}
+
+button {
+    width: 200px;
+    height: 70px;
+    color: #79DEF1;
+    background-color: black;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.steps h2 {
+    padding-left: 60px;
+}
+
+.steps button {
+    margin-top: 80px;
+    margin-left: 75px;
+}
+
+.steps img {
+    margin-top: 30px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    width: 75%;
+    height:auto;
+}
+
+.cubes {
+    display: flex;
+    text-align:center;
+    }
+
+.cubes h2{
+   font-size:40px;
+   text-align:center;
+
+   }
+
+.cube img{
+   margin-top:30px;
+   margin-bottom:30px;
+   }
+
 footer {
     background-color: black;
 }
 
-
-.cubes {
+.payment {
+    width: 80%;
+    height: 200px;
+    background-color: #334A4E;
+    color: #79DEF1;
     display: flex;
 
+}
+
+.about_payment h2 {
+    color: white;
+    font-size: 30px;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+.about_payment p {
+    padding-left: 40px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.button_payment button {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.phone_photo img {
+    height: 200px;
+    width: 150px;
+}
+
+.city_img img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.solutions {
+    width: 80%;
+    height: 170px;
+    background-color: #334A4E;
+    color: #79DEF1;
+    display: flex;
+    margin-left: auto;
+    margin-top:40px;
+}
+
+.about_solutions {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_solutions h2 {
+    color: white;
+    font-size: 30px;
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about_solutions p {
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.button_solutions {
+    margin-left: auto;
+    padding-right: 40px;
+}
+
+.button_solutions button {
+    margin-top: 20px;
+
+}
+
+.photos_for_solutions {
+    display: flex;
+    justify-content:space-between;
+
+
+}
+
+.photos_for_solutions img {
+    border-radius: 15px;
+    margin-bottom: 30px;
+    width:30%;
+    height:auto;
+    margin-right:50px;
+    margin-left:50px;
+    margin-top:30px;
 }
 
