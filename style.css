@@ -9,24 +9,38 @@ header {
     background-color: black;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 0 20px;
-    height: 100px;
+    height: 80px;
+
 }
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   }
+
+nav {
+   display: flex;
+   align-items: center;
+   }
 
 header a {
     font-size: 20px;
     text-decoration: none;
     color: white;
     padding-right: 40px;
-    text-align:center;
 }
+
+
+
 
 
 main {
     background-color: #79DEF1;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 
@@ -34,13 +48,13 @@ main {
 .rectangle-container_2,
 .rectangle-container_3,
 .rectangle-container_4 {
-    width: 30%;
+    width: 10%;
     padding: 30px;
     color: #79DEF1;
     text-align: center;
     border-radius: 20px;
     position: relative;
-    font-size: 18px;
+    font-size: 15px;
     background-color:black;
     margin-right: 5%;
 }
@@ -73,24 +87,26 @@ main {
     width: 25%;
 }
 .rectangle-container_1 {
-    height: 120px;
+    height: 100px;
 }
 
 .rectangle-container_2 {
-    height: 150px;
+    height: 130px;
 }
 
 .rectangle-container_3 {
-    height: 180px;
+    height: 150px;
 }
 
 .rectangle-container_4 {
-    height: 210px;
+    height: 170px;
 }
 
 .row_container {
     display: flex;
     justify-content: flex-end;
+
+
 }
 
 .skyscraper {
@@ -119,6 +135,9 @@ main {
     font-size: 30px;
     margin-top: 2px;
     padding-left: 40px;
+    display:flex;
+    flex-direction:column;
+    width:400px;
 }
 
 button {
@@ -139,33 +158,16 @@ button {
     margin-left: 75px;
 }
 
-.steps img {
-    margin-top: 30px;
+.drive img {
     border-radius: 15px;
+    margin-top: 30px;
     margin-bottom: 40px;
-    width: 75%;
-    height:auto;
+    width: 500px;
+    height:250px;
+    padding-left:50px;
 }
 
-.cubes {
-    display: flex;
-    text-align:center;
-    }
 
-.cubes h2{
-   font-size:40px;
-   text-align:center;
-
-   }
-
-.cube img{
-   margin-top:30px;
-   margin-bottom:30px;
-   }
-
-footer {
-    background-color: black;
-}
 
 .payment {
     width: 80%;
@@ -197,11 +199,6 @@ footer {
 .phone_photo img {
     height: 200px;
     width: 150px;
-}
-
-.city_img img {
-    width: 100%;
-    height: auto;
 }
 
 
@@ -246,18 +243,138 @@ footer {
 
 .photos_for_solutions {
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
 
 
 }
 
-.photos_for_solutions img {
+.photos_for_solutions_1 img {
     border-radius: 15px;
     margin-bottom: 30px;
-    width:30%;
-    height:auto;
+    width:350px;
+    height:300px;
     margin-right:50px;
     margin-left:50px;
-    margin-top:30px;
+    margin-top:5px;
 }
 
+.photos_for_solutions_2 img{
+    border-radius: 15px;
+    margin-bottom: 30px;
+    width:500px;
+    height:250px;
+    margin-right:50px;
+    margin-left:50px;
+    margin-top:30px;}
+
+
+
+.cubes {
+    display: flex;
+    text-align:center;
+    justify-content:center;
+    margin-top:30px;
+
+    }
+
+.text_for_cubes h2{
+   font-size:40px;
+   text-align:center;
+   margin-top:30px;
+
+   }
+
+.cube img{
+   margin-top:10px;
+   margin-bottom:20px;
+   width:100%;
+
+   }
+.cube{
+    margin-right: 30px;
+    height:auto;
+    font-size:20px;
+    width:10%;
+    padding:60px;
+    padding-top:30px;
+
+    }
+
+
+.city_img {
+    margin-top:-10px;
+    margin-bottom: -4px;
+}
+
+.city_img img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 0px;
+
+}
+
+
+
+footer {
+    height: 200px;
+    background-color: black;
+    display:flex;
+}
+
+footer a{
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+    }
+
+footer p{
+    color:white;
+    font-size:15px;
+    padding-left:50px;
+    }
+
+.logo_footer img{
+    padding-top:15px;
+    padding-bottom:15px;
+    width:60%;
+    height:auto;
+    padding-left:40px;
+}
+
+
+.icons img{
+    display:flex;
+    width:6%;
+
+    }
+.icons{
+    display:flex;
+    padding-bottom:15px;
+    padding-left:50px;
+
+    }
+
+.footer_part{
+    flex-direction:column;
+    }
+
+.footer_info{
+    padding-top:40px;
+    display:flex;
+    flex-direction:column;
+    padding-left:50px;
+    }
+
+.bold_text a{
+    margin-right:60px;
+    font-weight: 700;
+    font-weight: 700;
+    }
+
+.plain_text a{
+    margin-right:80px;
+    }
+
+.plain_text{
+    padding-top:30px;
+    }
