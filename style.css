@@ -1,3 +1,5 @@
+/* Основний стиль */
+
 * {
     scroll-behaviour: smooth;
     font-family: 'Sansation', sans-serif;
@@ -12,15 +14,12 @@ header {
     padding: 0 20px;
     align-items: center;
     height: 80px;
-
 }
-
-
 
 nav {
    display: flex;
    align-items: center;
-   }
+}
 
 header a {
     font-size: 20px;
@@ -29,16 +28,11 @@ header a {
     padding-right: 40px;
 }
 
-
-
-
-
 main {
     background-color: #79DEF1;
     padding-top: 20px;
     padding-bottom: 0px;
 }
-
 
 .rectangle-container_1,
 .rectangle-container_2,
@@ -55,33 +49,16 @@ main {
     margin-right: 5%;
 }
 
-.rectangle-container_1 img{
+.rectangle-container_1 img,
+.rectangle-container_2 img,
+.rectangle-container_3 img,
+.rectangle-container_4 img {
     position: absolute;
     top: 12px;
     left: 10px;
     width: 25%;
 }
 
-.rectangle-container_2 img{
-    position: absolute;
-    top: 12px;
-    left: 10px;
-    width: 20%;
-}
-
-.rectangle-container_3 img{
-    position: absolute;
-    top: 12px;
-    left: 10px;
-    width: 25%;
-}
-
-.rectangle-container_4 img{
-    position: absolute;
-    top: 12px;
-    left: 10px;
-    width: 25%;
-}
 .rectangle-container_1 {
     height: 100px;
 }
@@ -101,8 +78,6 @@ main {
 .row_container {
     display: flex;
     justify-content: flex-end;
-
-
 }
 
 .skyscraper {
@@ -163,15 +138,12 @@ button {
     margin-left:50px;
 }
 
-
-
 .payment {
     width: 80%;
     height: 200px;
     background-color: #334A4E;
     color: #79DEF1;
     display: flex;
-
 }
 
 .about_payment h2 {
@@ -196,8 +168,6 @@ button {
     height: 200px;
     width: 150px;
 }
-
-
 
 .solutions {
     width: 80%;
@@ -234,49 +204,43 @@ button {
 
 .button_solutions button {
     margin-top: 20px;
-
 }
 
 .photos_for_solutions {
     display: flex;
     justify-content:space-around;
-
-
 }
 
 .photos_for_solutions_1 img,
 .photos_for_solutions_2 img {
     border-radius: 15px;
     margin-bottom: 30px;
-    width: 50vh;
+    width: 400px;
     height: auto;
     margin-top: 20px;
     margin-left:40px;
     margin-right:40px;
 }
 
-
 .cubes {
     display: flex;
     text-align:center;
     justify-content:center;
     margin-top:30px;
-
-    }
+}
 
 .text_for_cubes h2{
    font-size:40px;
    text-align:center;
    margin-top:30px;
-
-   }
+}
 
 .cube img{
    margin-top:10px;
    margin-bottom:20px;
    width:100%;
+}
 
-   }
 .cube{
     margin-right: 30px;
     height:auto;
@@ -284,9 +248,7 @@ button {
     width:10%;
     padding:60px;
     padding-top:30px;
-
-    }
-
+}
 
 .city_img {
     margin-top:-10px;
@@ -297,10 +259,7 @@ button {
     width: 100%;
     height: auto;
     padding-bottom: 0px;
-
 }
-
-
 
 footer {
     height: 200px;
@@ -312,13 +271,13 @@ footer a{
     text-decoration:none;
     color:white;
     font-size:15px;
-    }
+}
 
 footer p{
     color:white;
     font-size:15px;
     padding-left:50px;
-    }
+}
 
 .logo_footer img{
     padding-top:15px;
@@ -331,59 +290,80 @@ footer p{
 .icons img{
     display:flex;
     width:6%;
+}
 
-    }
 .icons{
     display:flex;
     padding-bottom:15px;
     padding-left:50px;
-
-    }
+}
 
 .footer_part{
     flex-direction:column;
-    }
+}
 
 .footer_info{
     padding-top:40px;
     display:flex;
     flex-direction:column;
     padding-left:50px;
-    }
+}
 
 .bold_text a{
     margin-right:60px;
     font-weight: 700;
     font-weight: 700;
-    }
+}
 
 .plain_text a{
     margin-right:80px;
-    }
+}
 
 .plain_text{
     padding-top:30px;
+}
+
+.menu{
+    width:30px;
+    display:none;
+}
+
+.menu img{
+    width:100%;
+
+}
+
+
+
+
+
+
+@media (max-width: 1190px) {
+    nav a {
+       font-size:15px;
+    }
+    .skyscraper {
+        height: 150px;
+    }
+    .skyscraper h1 {
+        font-size: 35px;
+        align-items:center;
+    }
+    .steps_and_button {
+        flex-direction:column;
+    }
+    .row_container{
+        margin-top:15px;
     }
 
-
-
-
-
-@media (max-width:1160px){
-    nav {
-       flex-direction:column;
-       }
-    .skyscraper {
-    height: 20vh;
-       }
-     .skyscraper h1 {
-    font-size: 35px;
-    align-items:center;
+    .steps button{
+        margin-top:15px;
+        }
 }
-   }
 
 
-@media (max-width:1140px){
+
+@media (max-width: 1140px) {
     .photos_for_solutions {
         flex-direction:column;
         align-items:center;
@@ -395,9 +375,6 @@ footer p{
     .plain_text a {
         padding-top:5px;
         font-size:12px;
-    }
-    .steps_and_button {
-        flex-direction:column;
     }
     .row_container {
         margin-top:20px;
@@ -415,7 +392,6 @@ footer p{
     .text_footer p {
         font-size:12px;
     }
-
     .payment p {
         font-size:15px;
         padding-bottom:20px;
@@ -423,71 +399,131 @@ footer p{
     .solutions p {
         font-size:15px;
         margin-right:10px;
-
     }
-
     .solutions h2 {
         font-size:20px;
     }
-
     .payment h2 {
         font-size:20px;
     }
-
     .payment p {
         font-size:15px;
     }
-
     .phone_photo img {
         height: auto;
         width: 60%;
         padding:10px;
-
     }
     button {
         width: 150px;
         height: 50px;
         font-size: 14px;
     }
+    .payment {
+        height:150px;
+    }
+    .solutions {
+        height:150px;
+    }
+}
 
-    .payment{
-    height:150px;}
 
-    .solutions{
-    height:150px;}
+@media (max-width:1050px){
+    nav{
+    display:none;}
+
+    .menu {
+    display:block;}
 }
 
 
 
-
-@media (max-width: 990px) {
-  .payment {
-    flex-direction: column;
-    height: 200px;
-  }
-  .solutions{
-    flex-direction: column;
-    height: 180px;
-  }
-
-  .button_solutions button{
-    margin-top: 5px;
-  }
-
-  .button_payment button{
-    align-items: left;
-    margin-left: 35px;
-    margin-top: 5px;
-  }
-
-  .phone_photo img {
-    display: none;
-  }
+@media (max-width: 1000px) {
+    .payment {
+        flex-direction: column;
+        height: 200px;
+    }
+    .solutions {
+        flex-direction: column;
+        height: 180px;
+    }
+    .button_solutions button {
+        margin-top: 5px;
+    }
+    .button_payment button {
+        align-items: left;
+        margin-left: 35px;
+        margin-top: 0px;
+    }
+    .phone_photo img {
+        display: none;
+    }
 }
 
 
+@media (max-width: 700px) {
+    .photos_for_solutions img{
+        width:250px;
+        height:auto;
+    }
+    .cubes {
+        flex-direction:column;
+        align-items:center;
+    }
+    .text_for_cubes h2 {
+        font-size:25px;
+    }
+    .cube p {
+        font-size:18px;
+        margin-bottom:10px;
+        width:100%;
+    }
+    .cube img {
+        width:100px;
+        height:auto;
+    }
+    .skyscraper {
+        height: 15vh;
+    }
+    .skyscraper h1 {
+        font-size: 25px;
+        align-items:center;
+        text-align:center;
+    }
+    .steps h2 {
+        font-size: 25px;
+    }
+    .row_container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .row_container h3 {
+        font-size:15px;
+    }
+    .payment {
+        height: 230px;
+    }
+    .solutions {
+        height: 200px;
+    }
+    .drive img {
+        width:400px;
+        height:auto;
+    }
+    .rectangle-container_1,
+    .rectangle-container_2,
+    .rectangle-container_3,
+    .rectangle-container_4 {
+        width: 30%;
+        margin-bottom: 5px;
+    }
+    .rectangle-container_1,
+    .rectangle-container_2,
+    .rectangle-container_3,
+    .rectangle-container_4 h2 {
+        padding-top: 50px;
+    }
 
-
-
+}
 
 
