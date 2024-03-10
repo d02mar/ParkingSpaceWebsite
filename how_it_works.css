@@ -1,0 +1,185 @@
+* {
+    scroll-behaviour: smooth;
+    font-family: 'Sansation', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    height: 80px;
+}
+
+nav {
+   display: flex;
+   align-items: center;
+}
+
+header a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding-right: 40px;
+}
+
+main {
+    background-color: #79DEF1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Step{
+    border:3px solid black;
+    margin-right:40px;
+    margin-top:20px;
+    margin-left:40px;
+
+
+}
+h1{
+    margin-top:30px;
+    margin-bottom:30px;
+    text-align:center;
+    padding-top:20px;
+    color:white;
+    background-color:black;
+    width:100%;
+    height:60px;
+    }
+
+
+.buildings img{
+    width:250px;
+    height:200px;
+    display: block;
+    margin:20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.conclusion p{
+    text-align:center;
+    margin:40px;
+    font-size:20px;}
+
+
+footer {
+    height: 200px;
+    background-color: black;
+    display:flex;
+}
+
+footer a{
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+}
+
+footer p{
+    color:white;
+    font-size:15px;
+    padding-left:50px;
+}
+
+.logo_footer img{
+    padding-top:15px;
+    padding-bottom:15px;
+    width:60%;
+    height:auto;
+    padding-left:40px;
+}
+
+.icons img{
+    display:flex;
+    width:6%;
+}
+
+.icons{
+    display:flex;
+    padding-bottom:15px;
+    padding-left:50px;
+}
+
+.footer_part{
+    flex-direction:column;
+}
+
+.footer_info{
+    padding-top:40px;
+    display:flex;
+    flex-direction:column;
+    padding-left:50px;
+}
+
+.bold_text a{
+    margin-right:60px;
+    font-weight: 700;
+    font-weight: 700;
+}
+
+.plain_text a{
+    margin-right:80px;
+}
+
+.plain_text{
+    padding-top:30px;
+}
+
+.menu{
+    width:30px;
+    display:none;
+}
+
+.menu img{
+    width:100%;
+}
+
+
+
+
+@media (max-width: 1190px) {
+    nav a {
+       font-size:15px;
+    }
+}
+
+
+
+@media (max-width: 1140px) {
+    .plain_text {
+        display:flex;
+        flex-direction:column;
+    }
+    .plain_text a {
+        padding-top:5px;
+        font-size:12px;
+    }
+    .bold_text {
+        flex-direction:column;
+    }
+    .bold_text a {
+        font-size:12px;
+    }
+    .text_footer p {
+        font-size:12px;
+    }
+
+}
+
+
+@media (max-width:1050px){
+    nav{
+    display:none;}
+
+    .menu {
+    display:block;}
+}
+
+
+
+
