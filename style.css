@@ -10,16 +10,12 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
+    align-items: center;
     height: 80px;
 
 }
 
-header {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 10px;
-   }
+
 
 nav {
    display: flex;
@@ -248,25 +244,16 @@ button {
 
 }
 
-.photos_for_solutions_1 img {
+.photos_for_solutions_1 img,
+.photos_for_solutions_2 img {
     border-radius: 15px;
     margin-bottom: 30px;
-    width:350px;
-    height:300px;
-    margin-right:50px;
-    margin-left:50px;
-    margin-top:5px;
+    width: 50vh;
+    height: auto;
+    margin-top: 20px;
+    margin-left:40px;
+    margin-right:40px;
 }
-
-.photos_for_solutions_2 img{
-    border-radius: 15px;
-    margin-bottom: 30px;
-    width:500px;
-    height:250px;
-    margin-right:50px;
-    margin-left:50px;
-    margin-top:30px;}
-
 
 
 .cubes {
@@ -341,7 +328,6 @@ footer p{
     padding-left:40px;
 }
 
-
 .icons img{
     display:flex;
     width:6%;
@@ -378,3 +364,130 @@ footer p{
 .plain_text{
     padding-top:30px;
     }
+
+
+
+
+
+@media (max-width:1160px){
+    nav {
+       flex-direction:column;
+       }
+    .skyscraper {
+    height: 20vh;
+       }
+     .skyscraper h1 {
+    font-size: 35px;
+    align-items:center;
+}
+   }
+
+
+@media (max-width:1140px){
+    .photos_for_solutions {
+        flex-direction:column;
+        align-items:center;
+    }
+    .plain_text {
+        display:flex;
+        flex-direction:column;
+    }
+    .plain_text a {
+        padding-top:5px;
+        font-size:12px;
+    }
+    .steps_and_button {
+        flex-direction:column;
+    }
+    .row_container {
+        margin-top:20px;
+    }
+    .steps button {
+        margin-top: 20px;
+        margin-left: 75px;
+    }
+    .bold_text {
+        flex-direction:column;
+    }
+    .bold_text a {
+        font-size:12px;
+    }
+    .text_footer p {
+        font-size:12px;
+    }
+
+    .payment p {
+        font-size:15px;
+        padding-bottom:20px;
+    }
+    .solutions p {
+        font-size:15px;
+        margin-right:10px;
+
+    }
+
+    .solutions h2 {
+        font-size:20px;
+    }
+
+    .payment h2 {
+        font-size:20px;
+    }
+
+    .payment p {
+        font-size:15px;
+    }
+
+    .phone_photo img {
+        height: auto;
+        width: 60%;
+        padding:10px;
+
+    }
+    button {
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .payment{
+    height:150px;}
+
+    .solutions{
+    height:150px;}
+}
+
+
+
+
+@media (max-width: 990px) {
+  .payment {
+    flex-direction: column;
+    height: 200px;
+  }
+  .solutions{
+    flex-direction: column;
+    height: 180px;
+  }
+
+  .button_solutions button{
+    margin-top: 5px;
+  }
+
+  .button_payment button{
+    align-items: left;
+    margin-left: 35px;
+    margin-top: 5px;
+  }
+
+  .phone_photo img {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
