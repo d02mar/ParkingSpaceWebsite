@@ -527,7 +527,10 @@ button a{
     .rectangle-container_4 h2 {
         padding-top: 50px;
     }
-
+    .logo img{
+    width:300px;}
+    .menu img{
+    width:100%;}
 }
 
 
