@@ -26,43 +26,50 @@ header a {
     padding-right: 40px;
 }
 
+video.video-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
 main {
-    background-color: #79DEF1;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-image: url('photo/building.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100hv;
+    width:100wh;
+    height:100vh;
 
-}
-
-.business{
-    border:3px solid black;
-    margin-right:40px;
-    margin-top:20px;
-    margin-left:40px;
 
 
 }
 
-h1{
-    margin-top:30px;
-    margin-bottom:30px;
-    text-align:center;
-    padding:20px;
-    color:white;
-    background-color:black;
+
+.info{
     width:100%;
     height:auto;
+    background-color:#282b2e;
+    opacity:0.9;
+    padding-top:20px;
+    margin-top:50px;
+
+    }
+.info h1{
+    color:white;
+    text-align: center;
+    padding:20px;
     }
 
+.info p{
+    color:white;
+    text-align: center;
+    padding:20px;}
 
 footer {
     height: 200px;
     background-color: black;
     display:flex;
+    overflow:hidden;
 }
 
 footer a{
@@ -297,3 +304,9 @@ footer p{
 }
 
 
+video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    position:fixed;
+    z-index:-1;}
