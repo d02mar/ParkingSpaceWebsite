@@ -1,5 +1,4 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f2f2f2;
@@ -13,6 +12,12 @@ body {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.container h2 {
+  text-align:center;
+  padding-bottom:20px;
+}
+
 
 form {
   display: flex;
@@ -81,12 +86,7 @@ main {
     width:100wh;
     height:100vh;
 
-
-
 }
-
-
-
 
 
 footer {
@@ -227,11 +227,6 @@ footer p{
     display: block;
 }
 
-
-
-
-
-
 .menu-btn {
   position: relative;
   display: flex;
@@ -280,10 +275,6 @@ footer p{
 .menu-btn.open .menu-btn__burger::after {
   transform: rotate(-45deg) translate(35px, 35px);
 }
-
-
-
-
 
 
 @media only screen and (min-width: 1050px) {

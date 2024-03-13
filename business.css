@@ -132,15 +132,11 @@ footer p{
 }
 
 
-
-
 @media (max-width: 1190px) {
     nav a {
        font-size:15px;
     }
 }
-
-
 
 @media (max-width: 1140px) {
     .plain_text {
@@ -162,7 +158,6 @@ footer p{
     }
 
 }
-
 
 @media (max-width:1050px){
     nav{
@@ -196,10 +191,6 @@ footer p{
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-
-
-
 
 
 .menu-btn {
@@ -251,11 +242,6 @@ footer p{
   transform: rotate(-45deg) translate(35px, 35px);
 }
 
-
-
-
-
-
 @media only screen and (min-width: 1050px) {
     .menu-btn {
         display: none;
@@ -270,7 +256,6 @@ footer p{
         display: block;
     }
 }
-
 
 .menu {
     position: absolute;
