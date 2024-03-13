@@ -1,3 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: black;
+  color: #79DEF1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #79DEF1;
+  color:black;
+
+}
+
 * {
     scroll-behaviour: smooth;
     font-family: 'Sansation', sans-serif;
@@ -26,44 +76,24 @@ header a {
     padding-right: 40px;
 }
 
+
 main {
-    background-color: #79DEF1;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-image: url('photo/building.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100hv;
+    width:100wh;
+    height:100vh;
 
-}
-
-.business{
-    border:3px solid black;
-    margin-right:40px;
-    margin-top:20px;
-    margin-left:40px;
 
 
 }
 
-h1{
-    margin-top:30px;
-    margin-bottom:30px;
-    text-align:center;
-    padding-top:20px;
-    padding-bottom:20px;
-    color:white;
-    background-color:black;
-    width:100%;
-    height:auto;
-    }
+
+
 
 
 footer {
     height: 200px;
     background-color: black;
     display:flex;
+    overflow:hidden;
 }
 
 footer a{
